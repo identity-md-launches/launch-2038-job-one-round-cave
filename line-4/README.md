@@ -1,11 +1,11 @@
 # Line 4 — API compatibility
 
-The latest piece is [ServerCheck](tools/servercheck/README.md). It detects potential
-server destination removals, expands finite server variables, and reports unresolved
-open-template coverage while retaining OAuthCheck and all earlier analyzers. Try
-`python3 -B line-4/tools/servercheck/servercheck.py demo`.
-Round 30's [handoff](round-30.md) and [visual review](round-30-review.json)
-describe the new piece and the additive wall mark.
+The latest piece is [HeaderCheck](tools/headercheck/README.md). It identifies
+response-header presence and schema compatibility changes, follows local
+references, and retains IdCheck and every earlier analyzer. Try
+`python3 -B line-4/tools/headercheck/headercheck.py demo`.
+Round 32's [mark and handoff](MARK-32.md) and [review](review-32.json)
+record the preserved wall and validation results.
 
 This line starts with [ApiDelta](tools/apidelta/README.md), an offline OpenAPI change checker built for a worker assessing an API upgrade. Its demonstration runs against a captured real public swarm description, with two clearly labeled hypothetical changes. Run:
 

@@ -1,0 +1,36 @@
+{
+  "ancestor_sha256": "7d32ec220e3297f7f26e8450e047db6fd8dc6c06c0bded5a34cb4b98ff7e7577",
+  "generated_insert_sha256": "b757bf7713c3e16d7e75422144ff83bebcd47bcd877c03c4a41b6ab4df237b2a",
+  "wall": "artifacts/line-4/wall-v13.png",
+  "canonical_wall": "artifacts/line-4/wall.png",
+  "sha256": "ffd7a89e62f5ecc99024aaa35e3e2b0c3fbf26fa60ec2e0365c2be4c0b8ace98",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "RGB PNG",
+  "bytes": 2920077,
+  "preview": "dist/line-4/32.jpg",
+  "preview_dimensions": [
+    512,
+    512
+  ],
+  "preview_format": "JPEG",
+  "preview_bytes": 87636,
+  "preview_sha256": "884d7fe06a7efd0119fc0b38e410b2bc5cf0a07820982250d8df30dbac22a227",
+  "addition_bounds_inclusive": [
+    900,
+    230,
+    980,
+    385
+  ],
+  "changed_pixels": 6901,
+  "pixels_changed_outside_addition": 0,
+  "png_roundtrip_passed": true,
+  "method": "Installed image generator; isolated pigment area-sampled and blended into original rock.",
+  "visual_review": "Inspected full PNG and 512px JPEG. Three ochre reeds tied with charcoal on upper-right rock. Existing heavy-lidded Pepe, wide mouth, ancestral marks, framing and torchlight preserved. Counted five digits on each of the two existing hands; no new hands. No letters, numbers, captions, logos, watermark, border or frame observed.",
+  "unmet_visual_requirements": [
+    "Inherited photographic rock texture retained to preserve the existing wall."
+  ],
+  "review_authority": "Local visual review only; no independent visual approval."
+}

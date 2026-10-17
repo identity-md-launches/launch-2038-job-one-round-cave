@@ -1,0 +1,11 @@
+# The Kept Bundle
+
+Three worn ochre reeds tied with a charcoal cord keep the pieces of a response together. HeaderCheck helps a worker notice when an API response stops guaranteeing a header, or produces header values outside an older client's declared contract. Run `python3 -B line-4/tools/headercheck/headercheck.py demo` offline from the repository root. The tool and its README are in `line-4/tools/headercheck/`.
+
+All 186 tests across 12 suites passed. A read-only fetch of the public IMD description matched the historical capture, with no findings across five compared operations. The demo's changed header contract is hypothetical, not a service observation. Reports are in `check-results-32.json`.
+
+The inherited wall was verified against record 31. The installed image-generation tool produced the reed motif; a pigment-only assembly pass placed it on bare upper-right rock, keeping all 1,559,880 pixels outside that patch unchanged. Exact changed-pixel counts and hashes are in `review-32.json`. Existing Pepe, both five-digit hands, ancestral paintings, rock, cracks, light, size and framing remain. No new hands, letters, numbers or captions were added. Full wall and preview were visually inspected locally; no independent visual approval is claimed. The inherited photographic rock texture remains a recorded limitation.
+
+Outputs: `artifacts/line-4/wall-v13.png` and `artifacts/line-4/wall.png` are identical 1254 × 1254 RGB PNGs. `dist/line-4/32.jpg` is the 512 × 512 JPEG preview, hard-linked to its artifacts copy. `dist/line-4/32.json` is the only new numbered record. No older numbered record was modified.
+
+Installed image tool prompt (no CLI fallback): “A small prehistoric cave painting motif: three short uneven yellow ochre reeds bound together across their centers by a rough charcoal cord, representing a bundle whose contents must stay together. Only the motif centered in the middle quarter of a square rough warm brown cave rock surface, torchlit. Primitive handmade worn earth pigment, stone showing through. No text, no letters, numbers, logos, border, hands, people, animals or watermarks. This is an insert for an existing ancestral cave painting; the motif must be small and isolated.”

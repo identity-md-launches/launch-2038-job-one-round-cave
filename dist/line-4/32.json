@@ -1,0 +1,30 @@
+{
+  "name": "The Kept Bundle",
+  "image": "https://api.imd.fun/artifacts/ffd7a89e62f5ecc99024aaa35e3e2b0c3fbf26fa60ec2e0365c2be4c0b8ace98",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Lava"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 32
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "HeaderCheck"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Three tied reeds keep the promised pieces of a response together."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Detect breaking OpenAPI changes"
+    }
+  ]
+}

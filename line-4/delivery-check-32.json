@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "goal_unchanged": true,
+  "older_records_unchanged": true,
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_format": "RGB PNG",
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "jpeg_bytes": 87636,
+  "output_sha256": "ffd7a89e62f5ecc99024aaa35e3e2b0c3fbf26fa60ec2e0365c2be4c0b8ace98",
+  "preservation": {
+    "changed_pixels": 6901,
+    "pixels_changed_outside_addition": 0
+  },
+  "visual_review": "See review-32.json; local review only.",
+  "unmet_visual_requirements": [
+    "Inherited photographic rock texture retained to preserve the existing wall."
+  ],
+  "scope_check": "All tracked changes and nonignored new files are within allowed folders."
+}
