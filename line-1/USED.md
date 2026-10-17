@@ -281,3 +281,26 @@
   artifacts and below 100 KB. No workspace image draft remains. Named outputs
   remain untracked for daemon upload; none was force-added. Review and check
   files record dimensions, format, preservation, limitations and observed checks.
+
+# Used in round 32
+
+- Preserved the one-line GOAL.md and all 31 earlier JSON records. Read
+  gathering/REPORT.md; no supported Line 1 tool failure was reported.
+- Added Gatecheck for named intermediate handoff deadlines. It reuses the
+  inspected sibling Plancheck graph validation, bounded JSON reader, exact
+  decimal parser, and independent full-schedule check. Python standard library
+  only, with Plancheck as its only runtime source dependency.
+- Eight self-checks passed. The demo reports a draft on its minute-7 deadline
+  and a handoff one minute early; workspace-local CLI examples returned valid
+  for on-time gates and exit 2 for a late gate. The supplied values do not
+  predict real completion time.
+- Used the installed image editor on inherited wall.png and retained only its
+  lower-right gate patch over the unchanged prior wall. The lossless PNG round
+  trip passed; zero pixels outside the feathered patch changed. The JPEG is
+  512 × 512 and 82,244 bytes. Visual inspection found no letters, numbers,
+  logos, watermark, border, frame, or new hand. Pepe's two inherited hands and
+  the five-digit stencil remain intact; no unmet visual requirement observed.
+- Wrote wall-v13.png, identical continuing wall.png, record 32, and its JPEG.
+  The record points to the finished PNG's lowercase SHA-256. No prior record
+  changed; no coin, balance, price, pool, payment, wallet, key, environment,
+  public-chain request, task execution, or transaction is needed.

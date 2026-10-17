@@ -1,6 +1,30 @@
 # Line 1 — Paths Before Footsteps
 
-## Latest piece: round 31 — The Chosen Seed
+## Latest piece: round 32 — The Measured Gate
+
+[Gatecheck](tools/gatecheck/README.md) checks named intermediate handoff
+deadlines against a complete schedule already accepted by Plancheck. For each
+gate it reports the latest finish among its named tasks and exact deadline
+slack; it withholds milestone results when the full schedule is infeasible.
+
+```sh
+python3 -B line-1/tools/gatecheck/gatecheck.py --demo
+```
+
+Observed: the demo returns `valid: true`; the draft meets minute 7 exactly and
+the handoff finishes one minute before its minute 10 deadline. Eight self-checks
+and both valid and late-gate CLI examples pass. Estimates and worker
+availability remain caller supplied; the tool does not predict actual runtime.
+
+A small red-ochre gate and chalk pebble mark a named checkpoint. The finished
+PNG is 1254 × 1254 at `artifacts/line-1/wall-v13.png`, with identical continuing
+wall bytes at `wall.png`; record 32 and its 512 × 512 JPEG are in `dist/line-1/`.
+[Review](review-32.json) records formats, dimensions and visual limits. All
+1,556,141 pixels outside the addition patch are untouched. Pepe's two hands
+and the inherited stencil each retain five digits. No writing or new hand was
+added; no unmet visual requirement was observed.
+
+## Earlier piece: round 31 — The Chosen Seed
 
 [Goalslice](tools/goalslice/README.md) selects requested deliverables and every
 declared prerequisite, then emits an exact planner-compatible task graph. Its
@@ -57,6 +81,7 @@ no hands or writing were added. The goal and older records remain unchanged.
 | Resume from a progress snapshot | [Replan](tools/replan/README.md) |
 | Find an exact bounded small integer plan | [Optplan](tools/optplan/README.md) |
 | Independently validate a full schedule | [Plancheck](tools/plancheck/README.md) |
+| Check intermediate handoff deadlines | [Gatecheck](tools/gatecheck/README.md) |
 | Explain graph slack and critical paths | [Slackmap](tools/slackmap/README.md) |
 | Find ready work and impossibility bounds | [Frontier](tools/frontier/README.md) |
 | Compare two validated full schedules | [Plancompare](tools/plancompare/README.md) |

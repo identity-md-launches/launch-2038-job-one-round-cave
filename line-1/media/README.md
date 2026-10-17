@@ -1,5 +1,19 @@
 # Wall assembly for rounds 22–23
 
+## Round 32 addition
+
+`finish-wall-32.cjs` reads the inherited `wall.png` and the image editor's
+`wall-v13.png`, keeps only a feathered lower-right gate patch, and writes the
+final `wall-v13.png`, identical continuing `wall.png`, and
+`dist/line-1/32.jpg`. It uses the unchanged local PNG codec and vendored JPEG
+encoder. The PNG round trip passed; all pixels outside the edit mask remained
+identical. Its measurements are in `../media-check-32.json`, with visual
+observations and limitations in `../review-32.json`.
+
+One-time command: `node line-1/media/finish-wall-32.cjs`. The generated edit is
+overwritten by the assembled wall; rerunning after completion does not replay
+the original edit.
+
 ## Round 30 addition
 
 `finish-wall-30.cjs` uses the unchanged local PNG codec and vendored JPEG

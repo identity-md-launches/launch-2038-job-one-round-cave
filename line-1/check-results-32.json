@@ -1,0 +1,38 @@
+{
+  "self_test": {
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  "demo": {
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  "valid_cli": {
+    "exit_code": 0,
+    "expected_exit_code": 0
+  },
+  "late_gate_cli": {
+    "exit_code": 2,
+    "expected_exit_code": 2
+  },
+  "invalid_budget": {
+    "exit_code": 1,
+    "expected_exit_code": 1
+  },
+  "media": {
+    "wall_format": "PNG",
+    "wall_dimensions": [
+      1254,
+      1254
+    ],
+    "wall_bytes": 2876133,
+    "preview_format": "JPEG",
+    "preview_dimensions": [
+      512,
+      512
+    ],
+    "preview_bytes": 82244,
+    "wall_and_continuing_wall_identical": true,
+    "sha256_matches_record": true
+  }
+}

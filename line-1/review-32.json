@@ -1,0 +1,26 @@
+{
+  "wall": "artifacts/line-1/wall-v13.png",
+  "wall_format": "PNG",
+  "wall_width": 1254,
+  "wall_height": 1254,
+  "wall_sha256": "2ed03d0d61334c7ecd02829176be8522988487220172d1892b26c870ea4645a5",
+  "wall_bytes": 2876133,
+  "preview": "dist/line-1/32.jpg",
+  "preview_format": "JPEG",
+  "preview_width": 512,
+  "preview_height": 512,
+  "preview_bytes": 82244,
+  "protected_pixels": 1556141,
+  "outside_addition_patch_changed_pixels": 0,
+  "visual_requirements": {
+    "square_wall_and_existing_framing_kept": true,
+    "pepe_visible_as_cave_figure": true,
+    "inherited_pepe_hands_each_have_five_digits": true,
+    "inherited_hand_stencil_has_five_digits": true,
+    "letters_or_numbers_visible": false,
+    "new_hands_added": false,
+    "logos_watermarks_borders_or_frames_visible": false,
+    "unmet_visual_requirements_observed": []
+  },
+  "limitation": "The inherited rock texture is photographic; the added gate is a small generative edit feathered into bare lower-right stone. Visual review is an observation, not certification."
+}
