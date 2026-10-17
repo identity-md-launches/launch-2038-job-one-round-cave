@@ -1,0 +1,31 @@
+{
+  "piece": "BatchIntake",
+  "goal_changed": false,
+  "tool_checks": {
+    "new_suite": "12 tests passed; includes 150 seeded partitions and exhaustive ordered subsets for three batches",
+    "inherited_rewardbatch": "11 tests passed",
+    "demo": "exit 0; incomplete and complete out-of-order deliveries conserve exactly 1 ZTO",
+    "network": "none; inherited historical real ZTO metadata only"
+  },
+  "wall": {
+    "path": "artifacts/line-3/wall-v13.png",
+    "format": "RGB PNG",
+    "dimensions": [1254, 1254],
+    "bytes": 2434422,
+    "sha256": "61f54af7dddc164304ff9da1edae885a8bb7f526667eb326493e0f1550b33f95",
+    "preview": "dist/line-3/30.jpg",
+    "preview_format": "JPEG",
+    "preview_dimensions": [512, 512],
+    "preview_bytes": 54176,
+    "structural_inspection": "both images valid",
+    "changed_pixels": 4614,
+    "changed_pixels_outside_patch": 0,
+    "visual_review": "Basket and ochre pebbles added on bare left rock. Both ancestral Pepe figures, cracks, lighting, framing and prior marks preserved. Visible ancestral hand has four fingers and one thumb. No new hands, letters, numbers, logos, border or watermark observed.",
+    "unmet_visual_requirements": [],
+    "limitations": [
+      "Inherited rock has photographic texture; retained to preserve the wall as required.",
+      "The small new basket loses pigment detail in the 512-pixel preview.",
+      "Visual review is the worker's inspection, not independent certification."
+    ]
+  }
+}

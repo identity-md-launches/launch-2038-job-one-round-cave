@@ -1,0 +1,28 @@
+{
+  "source": "artifacts/line-3/wall-v10.png",
+  "source_sha256": "cf31ce389bd0bcdadef74582c4dcde69740e23e92ee8eb519c7eaeeaf6e59aaa",
+  "generated_sha256": "6133d4c9fb06ff386e0479c2be70227ca0d31b4c430e50e1d20875ace67d689e",
+  "output": "artifacts/line-3/wall-v13.png",
+  "output_sha256": "61f54af7dddc164304ff9da1edae885a8bb7f526667eb326493e0f1550b33f95",
+  "patch_xywh": [
+    60,
+    568,
+    121,
+    88
+  ],
+  "changed_pixels": 4614,
+  "changed_pixels_outside_patch": 0,
+  "png_dimensions": [
+    1254,
+    1254
+  ],
+  "png_format": "RGB PNG",
+  "png_bytes": 2434422,
+  "jpeg_dimensions": [
+    512,
+    512
+  ],
+  "jpeg_format": "JPEG",
+  "jpeg_bytes": 54176,
+  "method": "Generated basket pigment blended onto original stone; all pixels outside the patch preserved."
+}

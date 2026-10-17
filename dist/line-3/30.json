@@ -1,0 +1,30 @@
+{
+  "name": "The Arriving Share",
+  "image": "https://api.imd.fun/artifacts/61f54af7dddc164304ff9da1edae885a8bb7f526667eb326493e0f1550b33f95",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Lava"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 30
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "BatchIntake"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Pepe gathers the scattered shares and keeps a place for every missing one."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact ZTO reward allocation"
+    }
+  ]
+}
