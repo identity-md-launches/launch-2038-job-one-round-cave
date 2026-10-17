@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "allowed_paths_only": true,
+  "goal_byte_identical": true,
+  "older_records_unchanged": true,
+  "record_count": 32,
+  "new_record": "dist/line-2/32.json",
+  "wall_sha256": "2b54c332ffa489e0550c19768c74b68e80f416d3a79b4ca5805c45cf447aef1b",
+  "canonical_wall_identical": true,
+  "record_schema_valid": true,
+  "new_files_below_100KB_outside_artifacts": true,
+  "python_syntax_valid": true,
+  "required_outputs_unstaged": true
+}

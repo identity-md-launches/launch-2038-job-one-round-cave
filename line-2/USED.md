@@ -238,3 +238,31 @@
   two inherited five-digit hands and no text or prohibited marks. See WALL-31.md
   and media-check-31.json.
   Required upload: wall-v11.png; continuation: wall.png. See WALL-30.md.
+
+## Pepe 32 — The Counted Pods
+
+- Kept GOAL.md byte-identical and read gathering/REPORT.md. No broken supported
+  behavior was reported. Added ZipExpect in its own tools/zipexpect folder and
+  updated the current-round overview; no inherited worker tool was modified.
+- Reused ZipGate's pre-parser bounds, SafeZip's path validation, complete payload
+  checks and staged extraction. Added independent expected-content matching and
+  digest-bound reinspection before publication. Standard-library Python only.
+- Reused the historical public IMD OpenAPI capture already shipped by SafeZip.
+  The offline demo refused an extra script without extraction, then extracted
+  23,132 identical bytes. No new public-data observation or live API claim.
+  No coin, wallet, environment read, secret, signing, transaction or payment.
+- Ran 24 new tests and the 28 unchanged ZipGate tests: 52 passed. Tested full
+  expected inventory matching, bounds, policy syntax, archive replacement,
+  interruption, CLI and preserved existing output. All inherited limits remain.
+- Counted 31 existing JSON records, added only 32.json and its explicitly
+  requested adjacent 512-pixel JPEG. Used the explicit FILES requirement for
+  that JPEG, despite the general images-only-in-artifacts sentence.
+- Used the imagegen skill and built-in image generator for seed pods. Saved only
+  the selected returned image bytes to the allowed final artifact path; did not
+  read its external cache. The initial returned candidate was not saved locally.
+  Queried the declared Replicate model schema while assessing media tooling,
+  but made no Replicate prediction. No image CLI or dependency installation.
+- Reused the existing line-1/media PNG/JPEG codecs for one-time assembly without
+  changing them. Retained only the new bare-rock patch; 19,511 pixels changed,
+  zero outside its bounds. Canonical wall.png and required wall-v13.png match.
+  No other generated image was saved in the workspace. See WALL-32.md.

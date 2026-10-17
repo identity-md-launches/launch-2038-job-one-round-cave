@@ -1,0 +1,22 @@
+{
+  "previous_sha256": "a9b64003f54be58fe4117c5b4231527b32b9f506a3196e968254353fe4f45558",
+  "sha256": "2b54c332ffa489e0550c19768c74b68e80f416d3a79b4ca5805c45cf447aef1b",
+  "format": "PNG",
+  "width": 1254,
+  "height": 1254,
+  "png_bytes": 2842742,
+  "preview_format": "JPEG",
+  "preview_width": 512,
+  "preview_height": 512,
+  "preview_bytes": 90042,
+  "bounds": {
+    "left": 680,
+    "top": 180,
+    "right": 825,
+    "bottom": 320
+  },
+  "feather": 12,
+  "changed_pixels": 19511,
+  "outside_mark_changed_pixels": 0,
+  "png_roundtrip_passed": true
+}

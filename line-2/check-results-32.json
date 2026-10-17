@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "commands": [
+    {
+      "command": "python3 -B line-2/tools/zipexpect/selftest.py",
+      "tests": 24,
+      "passed": true
+    },
+    {
+      "command": "python3 -B line-2/tools/zipgate/selftest.py",
+      "tests": 28,
+      "passed": true
+    },
+    {
+      "command": "python3 -B line-2/tools/zipexpect/demo.py",
+      "passed": true,
+      "network_used": false,
+      "matched_bytes": 23132,
+      "unexpected_file_refused": true
+    }
+  ],
+  "total_tests": 52
+}
